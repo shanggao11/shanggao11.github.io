@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Shang Gao"
 title_separator          : "-"
-name                     : &name ""
-description              : &description "aaaaaaaa"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "None"
+description              : &description "Hi, This is Shang(Gale) Gao"
+url                      : https://shanggao11.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "shanggao11.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,21 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Shang Gao"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  bio              : "Hi this is Shang Gao (or just call me Gale)"
+  location         : "Earth🌏"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=ALUCkoUxItV2tyCaiTrdtzPS3nGpLuQNm56q56ely8AlvfB0v2OIxTOqveCtEA5k0_Rnmh0MAwdga1eQ1KqilUH9qr-D&user=I3WuCWEAAAAJ"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
   foursquare       :
   github           : "academicpages"
   google_plus      :
