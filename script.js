@@ -1,7 +1,7 @@
 const translations = {
   en: {
-    skip: 'Skip to content', siteName: '[Your Name]', navAbout: 'About', navResearch: 'Research', navCv: 'CV', navContact: 'Contact',
-    heroEyebrow: 'ACADEMIC PROFILE', heroLineOne: 'Questions worth', heroLineTwo: 'exploring.', heroSubtitle: '[Your Name] · [Your title] at [Your institution]', heroIntro: 'A short introduction to your research interests and the ideas that connect your work. Replace this text with two or three sentences in your own voice.', exploreResearch: 'Explore my research', artLabel: 'A CONTINUING INQUIRY',
+    skip: 'Skip to content', siteName: '[Shang Gao (Gale)]', navAbout: 'About', navResearch: 'Research', navCv: 'CV', navContact: 'Contact',
+    heroEyebrow: 'ACADEMIC PROFILE', heroLineOne: 'Questions worth', heroLineTwo: 'exploring.', heroSubtitle: 'Shang Gao (Gale) · Phd Student at Caltech', heroIntro: 'I am interested in the computational mechanisms underlying cognitive flexibility and imagination, and in how humans generalize from limited examples and continue learning over time.', exploreResearch: 'Explore my research', artLabel: 'A CONTINUING INQUIRY',
     aboutTitle: 'About', aboutLead: 'I study [your field], with a focus on [your central question or topic].', aboutBody: 'Use this space for a concise academic biography: your current position, the questions you pursue, and what motivates your approach. A few specific details will make this feel personal and memorable.', positionLabel: 'CURRENT POSITION', positionValue: '[Title] · [Institution]', interestsLabel: 'INTERESTS', interestsValue: '[Interest 1] · [Interest 2] · [Interest 3]',
     researchTitle: 'Research & projects', researchIntro: 'Selected questions and projects that shape my work.', projectOneType: 'RESEARCH AREA', projectOneTitle: '[Project or research theme one]', projectOneBody: 'Describe the central question, your approach, and why this work matters in one or two clear sentences.', projectTwoType: 'SELECTED PROJECT', projectTwoTitle: '[Project or research theme two]', projectTwoBody: 'Add a second project, collaboration, publication, or research direction here.', projectThreeType: 'ONGOING WORK', projectThreeTitle: '[Project or research theme three]', projectThreeBody: 'Highlight a current line of inquiry or the next question you hope to answer.',
     cvTitle: 'Curriculum vitae', cvLead: 'A brief view of my academic path.', cvDateOne: '[Year–present]', cvRoleOne: '[Current position]', cvPlaceOne: '[Institution · Department]', cvDateTwo: '[Year–year]', cvRoleTwo: '[Degree or prior position]', cvPlaceTwo: '[Institution · Department]', cvDateThree: '[Year–year]', cvRoleThree: '[Degree or prior position]', cvPlaceThree: '[Institution · Department]', cvNote: 'Full CV available upon request.',
@@ -30,8 +30,8 @@ function setLanguage(language) {
   languageButton.setAttribute('aria-pressed', language === 'zh');
   document.querySelector('.wordmark').setAttribute('aria-label', language === 'zh' ? '返回顶部' : 'Back to top');
   document.querySelector('.desktop-nav').setAttribute('aria-label', language === 'zh' ? '主导航' : 'Main navigation');
-  document.title = language === 'zh' ? '[你的姓名] — 学术主页' : '[Your Name] — Academic Website';
-  document.querySelector('meta[name="description"]').content = language === 'zh' ? '[你的姓名]的学术主页：研究、项目、简历和联系方式。' : 'Academic website for [Your Name]: research, projects, CV, and contact.';
+  document.title = language === 'zh' ? '[你的姓名] — 学术主页' : '[Shang Gao (Gale)] — Academic Website';
+  document.querySelector('meta[name="description"]').content = language === 'zh' ? '[你的姓名]的学术主页：研究、项目、简历和联系方式。' : 'Academic website for [Shang Gao (Gale)]: research, projects, CV, and contact.';
   try { localStorage.setItem('academicSiteLanguage', language); } catch (error) { /* The switch still works if storage is unavailable. */ }
 }
 
