@@ -51,7 +51,7 @@ function setLanguage(language) {
   languageButton.setAttribute('aria-pressed', language === 'zh');
   document.querySelector('.wordmark').setAttribute('aria-label', language === 'zh' ? '返回顶部' : 'Back to top');
   document.querySelector('.desktop-nav').setAttribute('aria-label', language === 'zh' ? '主导航' : 'Main navigation');
-  document.title = 'Shang Gao (Gale)';
+  document.title = 'Shang Gao (Gale) | PhD Student at Caltech';
   document.querySelector('meta[name="description"]').content = language === 'zh' ? 'Shang Gao (Gale) 的个人主页：研究神经科学与计算，也记录一些物理和生活里的好奇。' : 'Shang Gao (Gale): neuroscience, neural computation, research, writing, and life beyond the lab.';
   updateThemeButton(language);
   try { localStorage.setItem('academicSiteLanguage', language); } catch (error) { /* The switch still works if storage is unavailable. */ }
